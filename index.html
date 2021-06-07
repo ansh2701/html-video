@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Finance</title>
+  </head>
+  <body>
+    <section class="showcase">
+      <header>
+        <h2 class="logo">Finance</h2>
+        <div class="toggle"></div>
+      </header>
+      <video src="finance.mp4" muted loop autoplay></video>
+
+      <div class="overlay"></div>
+      <div class="text">
+        <h2>Invest Now</h2>
+        <h3>Love Crypto</h3>
+        <p>
+          People say that love is more important than crypto. But have you ever
+          tried to pay your water bill with a warm hug?
+        </p>
+        <a href="#">Invest</a>
+      </div>
+      <ul class="social">
+        <li>
+          <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        </li>
+      </ul>
+    </section>
+
+    <div class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <script>
+      const menuToggle = document.querySelector(".toggle");
+      const showcase = document.querySelector(".showcase");
+
+      menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("active");
+        showcase.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
