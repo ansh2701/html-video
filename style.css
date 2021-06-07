@@ -178,7 +178,9 @@
   .showcase header {
     padding: 40px;
   }
-
+  .menu {
+    width: 250px;
+  }
   .text h2 {
     font-size: 3em;
   }
