@@ -181,6 +181,9 @@
   .menu {
     width: 250px;
   }
+  .showcase.active {
+    right: 250px;
+  }
   .text h2 {
     font-size: 3em;
   }
